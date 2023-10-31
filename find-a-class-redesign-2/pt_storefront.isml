@@ -1,0 +1,51 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+
+	<isscript>
+		var pageContext = {
+			title: 'Storefront',
+			type: 'storefront',
+			ns: 'storefront'
+		};
+		pdict.showCountrySelector = true;
+		var assets = require('*/cartridge/scripts/util/assetsJS.js');
+	    assets.addCss('/css/home.css');
+	</isscript>
+	<isinclude template="util/modules"/>
+
+	<iscomment>This page must be cachable. It inherits the caching attributes by the decorated template.</iscomment>
+
+	<isinclude template="components/header/htmlhead"/>
+	<isinclude template="content/home/pt_storefront_UI"/>
+
+	<iscomment>Open graph and Twitter card tags for SEO</iscomment>
+	<isinclude template="seo/opengraphtags"/>
+	
+
+</head>
+<body>
+	<iscomment>To include GTM</iscomment>
+	<isinclude template="googletagmanager/gtmnosearchinclude"/>
+	
+	<div id="wrapper" class="pt_storefront clearfix">
+
+		<isinclude template="components/header/header"/>
+
+		<div id="main" role="main">
+			<isreplace/>
+			<isinclude template="components/browsertoolscheck"/>
+		</div>
+        <isif condition="${'adobeAnalyticsEnabled' in dw.system.Site.getCurrent().preferences.custom && dw.system.Site.getCurrent().preferences.getCustom().adobeAnalyticsEnabled}" > 
+		  <isinclude template="adobedtm/spc"/>
+		</isif>
+		<isinclude template="components/footer/footer"/>
+		<isinclude template="content/home/pt_storefront_VARS"/>
+
+	</div><!--  /wrapper -->
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <script src="./find-a-class-functionality.js" ></script>
+</head>
+
+<body>
+     <!-- modal div -->
+     <div id="modal-id" class="d-none">
+        <div class="modal modal-container" id="modal-container-id">
+            <div class="close-btn">
+                <img src="./close-btn.svg" id="close-btn-id" alt="cannot load image">
+            </div>
+            <div class="modal-text">
+                <div class="heading-text-modal">
+                    <h2 class="heading-text-modal-h2 heading-margin-none">
+                        About Class Formats
+                    </h2>
+                </div>
+                <div class="p-text-modal">
+                    <div class="online">
+                        <div class="online-img-div img-div">
+                            <img src="./online.svg" alt="connot load image">
+                        </div>
+                        <div class="online-ul-div">
+                            <h3 class="online-ul-heading heading-margin-none ul-heading-font">Online</h3>
+                            <ul class="online-ul p-twenty ul-heading m-zero">
+                                <li>Self-paced, interactive instruction from your laptop or tablet.</li>
+                                <li>Demonstration of skill proficiency is NOT available.</li>
+                                <li>Start your course immediately.</li>
+                                <li>2-year Red Cross Certificate of Completion, may not meet workplace requirements.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="online-plus-inperson">
+                        <div class="online-plus-inperson-img-div img-div">
+                            <img src="./online-inperson.svg" alt="cannot load image">
+                        </div>
+                        <div class="online-plus-inperson-ul-div">
+                            <h3 class="online-plus-inperson-ul-heading heading-margin-none ul-heading-font">In-Person + Online (Blended)</h3>
+                            <ul class="online-plus-inperson-ul p-twenty ul-heading m-zero">
+                                <li>Combines in-person sessions with self-paced, interactive online instruction.</li>
+                                <li>Complete online course, then demonstrate competencies with a certified instructor.
+                                </li>
+                                <li>2-year Red Cross Certification meets professional licensing compliance.</li>
+                                <li> Satisfies OSHA workplace requirements.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="inperson">
+                        <div class="inperson-img-div img-div">
+                            <img src="./in-person.svg" alt="cannot load image">
+                        </div>
+                        <div class="inperson-ul-div">
+                            <h3 class="inperson-ul-heading heading-margin-none ul-heading-font">In-Person</h3>
+                            <ul class="inperson-ul p-twenty ul-heading m-zero">
+                                <li>Combines lecture with hands on skills sessions.</li>
+                                <li>Experienced instructors in classroom setting.</li>
+                                <li>Convenient locations and times</li>
+                                <li> 2-year Red Cross Certification meets professional licensing compliance.</li>
+                                <li> Satisfies OSHA workplace requirements</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <!-- find-a-class div  -->
+        <div class="wrapper" id="wrapper-id">
+            <div class="text-div">
+                <h2 class="red-cross-text">RED CROSS TRAINING FOR INDIVIDUALS</h2>
+                <h1 class="get-trained-text">Get Trained.<br> Act with Confidence.</h1>
+                <h3 class="view-online-text">Want self-paced classes taken online? <span class="view-span">View Online
+                        Classes.</span></h3>
+            </div>
+            <div class="form-div">
+                <p class="validation-text d-none">Please select a course category, location and format before searching.</p>
+                <form class="find-a-class">
+                    <div class="location-section">
+                        <img id="location-icon-id" class="location-icon" src="./images/Map Marker Alt Icon.svg">
+                        <span class="location-text">Find a Class in</span>
+                        <a id="location-address-id" class="location-address" href="#">New Heaven. CT</a>
+                    </div>
+                    <div class="select-container">
+                        <div class="common-class">
+                            <div class="dropdown-div choose-a-class" id="dropdown-div-id">
+                                <div class="class-dropdown" id="class-dropdown-id">
+                                    Choose a Class
+                                </div>
+                                <div class="arrow-image-div">
+                                    <img class="carrot-img" id="carrot-img-id" src="./carrot.png" alt="cannot load">
+                                </div>
+                            </div>
+                            <div class="options-div" id="options-div-id">
+                                <div class="options">CPR</div>
+                                <div class="options">AED</div>
+                                <div class="options">First Aid</div>
+                            </div>
+                            <div class="dropdown-div-two" id="dropdown-div-two-id">
+                                <div class="dropdown-div-two-container" id="dropdown-div-two-container-id">
+                                    <div class="class-dropdown-two" id="class-dropdown-two-id">
+                                        All Formats
+                                    </div>
+                                    <div class="arrow-image-div">
+                                        <img class="carrot-img" id="carrot-img-two-id" src="./carrot.png" alt="cannot load">
+                                    </div>
+                                </div>
+                                <div class="options-div-two" id="options-div-two-id">
+                                    <div class="options-two">All Formats</div>
+                                    <div class="options-two">Online Only</div>
+                                    <div class="options-two">In-person</div>
+                                    <div class="options-two">Blended (Online + In-person)</div>
+                                </div>
+                            </div>
+                          
+                            <div class="div-p-mobile">
+                                <p class="about-class-format align-right">About class formats</p>
+                            </div>
+                            <button class="show-btn" id="show-btn-id" type="button">
+                                <span class="btn-span"> SHOW CLASSES</span>
+                                <picture>
+                                    <source media="(min-width:321px)" srcset="./Arrow-desktop.png">
+                                    <source media="(max-width:321px)" srcset="./Arrow-mobile.png">
+                                    <img class="arrow-img" src="./Arrow-mobile.png" alt="Flowers" >
+                                </picture>
+                               
+                            </button>
+                        </div>
+                        <div class="div-p d-none">
+                            <p id='about-class-format-id' class="about-class-format">About class formats</p>
+                        </div>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+        
+        
+        <!-- your location div -->
+        <div class="your-location d-none" id="location-id">
+            <div class="close-btn" > 
+                <img id="location-close-btn-id" src="./close-btn.svg" alt="cannot load image">
+            </div>
+            <div class="your-location-div">
+                <h2 class="your-location-heading">Your Location</h2>
+                <div class="your-location-text">
+                    <p class="enter-your-location">Enter your location to display the training schedule in your area.</p>
+                    <form class="your-location-form">
+                        <div class="your-location-form-div">
+                            <div class="zipcode-img-div">
+                                <img class="zipcode-img" src="./zipcode-mobile.png" alt="cannot load image">
+                            </div>
+                            <input type="text" id="location-id" name="location-label">
+                        </div>
+                        <div class="find-img-div">
+                            <img class="find-img" src="./find-mobile.png" alt="cannot load image">
+                        </div>
+                        <!-- <div class="distance-div"> -->
+                            <div class="distance-dropdown-div" id="distance-dropdown-div-id">
+                                <div class="distance-dropdown">
+                                    Within 25 miles
+                                </div>
+                              <img id="carrot-img-id-three" class="carrot-img" src="./carrot.svg" alt="cannot load image">
+                                
+                            </div>
+                            <div class="options-div-three d-none" id="options-div-three-id">
+                                <div class="options-three">Within 5 Miles</div>
+                                <div class="options-three">Within 10 Miles</div>
+                                <div class="options-three">Within 15 Miles</div>
+                                <div class="options-three">Within 20 Miles</div>
+                                <div class="options-three">Within 25 Miles</div>
+                            </div>
+                        <!-- </div> -->
+                        
+                        
+                       <button type="submit" class="search-btn">SEARCH</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+</body>
+
+</html>

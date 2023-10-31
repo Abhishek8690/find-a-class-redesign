@@ -1,0 +1,17 @@
+<svg id="Instructor-led" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="99.998" viewBox="0 0 100 99.998">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4154" data-name="Rectangle 4154" width="100" height="99.998" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1728" data-name="Group 1728" clip-path="url(#clip-path)">
+    <path id="Path_1037" data-name="Path 1037" d="M165.6,416.457a5.406,5.406,0,1,0-5.4-5.414,5.413,5.413,0,0,0,5.4,5.414" transform="translate(-142.874 -378.024)" fill="#ed1b2e"/>
+    <path id="Path_1038" data-name="Path 1038" d="M223.884,426.046H183.922v-3.353l12.523-6a2.369,2.369,0,0,0,1.109-3.163l-.147-.3a2.37,2.37,0,0,0-3.163-1.111l-10.322,4.947V404.272h39.962Zm-42.646-24.457v16.758l-5.167,2.479-1.981-.005H166.2l-3.4.007a2.5,2.5,0,0,0-2.438,1.734l-5.9,16.754h5.386l2.953-8.387v8.387h14.613L177.4,425.8c.055-.021.11-.034.163-.059l3.673-1.763v4.751h45.33v-27.14Z" transform="translate(-147.337 -381.175)" fill="#ed1b2e"/>
+    <path id="Path_1039" data-name="Path 1039" d="M174.72,429.9a4.265,4.265,0,1,1,4.264-4.264,4.266,4.266,0,0,1-4.264,4.264" transform="translate(-134.908 -365.804)" fill="#ed1b2e"/>
+    <path id="Path_1040" data-name="Path 1040" d="M168.019,440.928v-8.36a5.493,5.493,0,0,1,5.5-5.466h5.89a5.684,5.684,0,0,1,5.711,5.466v8.36Z" transform="translate(-136.8 -361.354)" fill="#ed1b2e"/>
+    <path id="Path_1041" data-name="Path 1041" d="M199.611,429.7a4.267,4.267,0,1,0-4.264-4.268,4.27,4.27,0,0,0,4.264,4.268" transform="translate(-115.569 -365.964)" fill="#ed1b2e"/>
+    <path id="Path_1042" data-name="Path 1042" d="M210.052,440.928v-8.36a5.493,5.493,0,0,0-5.5-5.466h-5.883a5.683,5.683,0,0,0-5.713,5.466v8.36Z" transform="translate(-117.424 -361.354)" fill="#ed1b2e"/>
+    <path id="Path_1043" data-name="Path 1043" d="M187.182,421.346a4.28,4.28,0,1,1-4.314,4.279,4.3,4.3,0,0,1,4.314-4.279" transform="translate(-125.264 -365.826)" fill="#ed1b2e"/>
+    <path id="Path_1044" data-name="Path 1044" d="M179.447,440.931l3.4-9.25c1.359-4.726,5.322-4.583,5.322-4.583h3.362s3.957-.144,5.32,4.583l3.4,9.25Z" transform="translate(-127.922 -361.358)" fill="#ed1b2e"/>
+  </g>
+</svg>
